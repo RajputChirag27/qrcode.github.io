@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif; 
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem;
+    background-color: hsl(212, 45%, 89%)
+}
+.box{
+
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 0.6rem;
+    width: 15rem;
+    height: 25rem;
+}
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    margin: 0.8rem 0rem;
+}
+
+.qr img{
+    width: 90%;
+    border-radius: 0.6rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+font-weight: 700;
+margin-top: 0.6rem;
+}
+
+#content{
+margin-top: 1rem;
+color: hsl(220, 15%, 55%);
+font-size: 0.9375rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Utility Class */
+.center{
+text-align: center;
+}

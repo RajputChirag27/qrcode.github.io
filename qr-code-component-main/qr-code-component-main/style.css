@@ -11,15 +11,15 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 10rem;
     background-color: hsl(212, 45%, 89%)
 }
 .box{
 
     background-color: hsl(0, 0%, 100%); 
     border-radius: 0.6rem;
-    width: 15rem;
-    height: 25rem;
+    width: 20rem;
+    height: 30rem;
 }
 .qr{
     display: flex;
@@ -40,23 +40,28 @@ body{
 }
 #heading{
 font-weight: 700;
-margin-top: 0.6rem;
+/* margin-top: 0.6rem; */
+margin: 0.6rem 1.1rem;
 }
 
 #content{
-margin-top: 1rem;
+margin: 0.6rem 1.3rem;
 color: hsl(220, 15%, 55%);
 font-size: 0.9375rem;
 }
 
 footer{
-    position: absolute;
+    position: fixed;
+    background-color: aliceblue;
+    left: 0;
     bottom: 0;
-    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: rem;
 }
 
 .attribution {
-     font-size: 11px; text-align: center; 
+     font-size: .9rem; text-align: center; 
     }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
